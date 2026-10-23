@@ -1,5 +1,5 @@
 # Homeostasis-and-Hidden-Markov-Model-Control
-Codes to generate Figures for the Moreno-Bote's Homeostasis and Hidden Markov Model Control paper
+Codes to generate Figures for the Moreno-Bote's Homeostasis and Hidden Markov Model Control paper. Please, follow these steps:
 
 
 Run C code ending in "_1.cc" to generate data for Fig2a-d.
