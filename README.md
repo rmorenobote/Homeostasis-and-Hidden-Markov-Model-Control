@@ -8,6 +8,6 @@ Run Matlab code to generate figures Fig2a-d.
 
 Run C code ending in "_2.cc" to generate data for Fig2e-h.
 
-Run Matlab code to generate figures Fig2e-h.
+Run again Matlab code to generate figures Fig2e-h.
 
 Output figures are provided. 
