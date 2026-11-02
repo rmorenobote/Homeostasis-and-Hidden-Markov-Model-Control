@@ -559,7 +559,7 @@ double* value_function(int grid_size_x1, int grid_size_x2, int T, int food_x1, i
 	for (i1 = 0; i1 < grid_size_x1; i1++) {
 		for (i2 = 0; i2 < grid_size_x2; i2++) {
 			if (i1 == food_x1 && i2 == food_x2) {
-				beta_vec[i1 + grid_size_x1 * i2 + grid_size_x1 * grid_size_x2 * (T - 1)] = alpha * log(p_y_food) + log(5.);
+				beta_vec[i1 + grid_size_x1 * i2 + grid_size_x1 * grid_size_x2 * (T - 1)] = alpha * log(p_y_food) + 0*log(5.);
 			}
 			else if (i1 == food_x1 - 1 && i2 == food_x2) {//dangerous cell right on the left of the food source
 				beta_vec[i1 + grid_size_x1 * i2 + grid_size_x1 * grid_size_x2 * (T - 1)] = alpha * log(1e-200 * p_y_no_food) + log(5.);
